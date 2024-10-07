@@ -72,7 +72,7 @@ Also because it is built upon changing dependencies it is inherently unstable wi
 
 For a smoother more bleeding edge architecture check out:
 https://loopyavatar.github.io/
-Loopy takes more hours to make.
+Loopy takes more hours to make. And probably also breaks in ways that take more hours to fix.
 
 ## Future Improvements
 Add support for a graphical user interface (GUI).
