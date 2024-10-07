@@ -27,12 +27,15 @@ To set up and run the tool on your local machine, follow these steps:
    ```python
    git clone https://github.com/Aelius23/Audio-still-image-to-terrible-lip-sync.git
 3. Navigate to the project directory:
+   ```python
    cd Audio-still-image-to-terrible-lip-sync
-4. Install the required dependencies:
+5. Install the required dependencies:
+   ```python
    pip install -r requirements.txt
 
 ## Usage
 To run the lip sync tool, use the following command:
+```python
   python lipsync.py --image path/to/image.png --audio path/to/audio.wav --output path/to/output.mp4
 Command-line options:
   --image: Path to the still image file (e.g., .png, .jpg).
@@ -40,6 +43,7 @@ Command-line options:
   --output: Path to the output video file (e.g., .mp4).
 
   Example:
+```python
     python lipsync.py --image my_image.png --audio my_audio.wav --output synced_output.mp4
 This command will take the still image my_image.png, sync it with the audio my_audio.wav, and save the output video to synced_output.mp4.
 
@@ -47,6 +51,7 @@ This command will take the still image my_image.png, sync it with the audio my_a
 If the tool has customizable settings, you can modify them in the config.json file. For example, you can adjust phoneme mapping or other parameters to fine-tune the lip sync.
 
 Example Configuration (config.json):
+```json
 {
   "phoneme_map": {
     "a": [1, 0.5, 0.3],
