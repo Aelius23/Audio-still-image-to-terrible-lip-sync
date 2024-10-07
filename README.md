@@ -68,6 +68,8 @@ Example Configuration (config.json):
 The tool is designed for humorous, exaggerated lip syncs and may not produce realistic results.
 Works best with clear audio and a simple still image.
 
+Also because it is built upon changing dependencies it is inherently unstable without its own personal back end.
+
 For a smoother more bleeding edge architecture check out:
 https://loopyavatar.github.io/
 Loopy takes more hours to make.
