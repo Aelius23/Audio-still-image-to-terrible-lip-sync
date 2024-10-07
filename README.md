@@ -24,21 +24,20 @@ The Lip Sync Tool automates the synchronization of still images and audio tracks
 ## Installation
 To set up and run the tool on your local machine, follow these steps:
 1. Clone the repository:
-   ```bash
+   ```python
    git clone https://github.com/Aelius23/Audio-still-image-to-terrible-lip-sync.git
 3. Navigate to the project directory:
-   ```bash
+   ```python
    cd Audio-still-image-to-terrible-lip-sync
 5. Install the required dependencies:
-   ```bash
+   ```python
    pip install -r requirements.txt
 
 ## Usage
 To run the lip sync tool, use the following command:
 ```bash
   python lipsync.py --image path/to/image.png --audio path/to/audio.wav --output path/to/output.mp4
-
-## Command-line options:
+Command-line options:
   --image: Path to the still image file (e.g., .png, .jpg).
   --audio: Path to the audio file (e.g., .wav).
   --output: Path to the output video file (e.g., .mp4).
@@ -47,7 +46,7 @@ Example:
 ```bash
     python lipsync.py --image my_image.png --audio my_audio.wav --output synced_output.mp4
 This command will take the still image my_image.png, sync it with the audio my_audio.wav, and save the output video to synced_output.mp4.
-
+```
 ## Configuration
 If the tool has customizable settings, you can modify them in the config.json file. For example, you can adjust phoneme mapping or other parameters to fine-tune the lip sync.
 
@@ -61,7 +60,7 @@ Example Configuration (config.json):
   "frame_rate": 30,
   "lip_intensity": 1.2
 }
-
+```
 ## Limitations
 The tool is designed for humorous, exaggerated lip syncs and may not produce realistic results.
 Works best with clear audio and a simple still image.
@@ -76,4 +75,3 @@ Fully reconstruct following Loopy, above.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
-
