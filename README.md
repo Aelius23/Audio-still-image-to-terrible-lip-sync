@@ -37,6 +37,7 @@ To set up and run the tool on your local machine, follow these steps:
 To run the lip sync tool, use the following command:
 ```bash
   python lipsync.py --image path/to/image.png --audio path/to/audio.wav --output path/to/output.mp4
+```
 Command-line options:
   --image: Path to the still image file (e.g., .png, .jpg).
   --audio: Path to the audio file (e.g., .wav).
