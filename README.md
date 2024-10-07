@@ -78,3 +78,12 @@ Fully reconstruct following Loopy, above.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## How It Looks
+https://github.com/Aelius23/Audio-still-image-to-terrible-lip-sync/blob/main/BigHogDemo.mp4
+
+<video width="640" height="480" controls>
+  <source src="https://github.com/yourusername/yourrepository/raw/main/BigHogDemo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
