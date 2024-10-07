@@ -24,10 +24,11 @@ The Lip Sync Tool automates the synchronization of still images and audio tracks
 ## Installation
 To set up and run the tool on your local machine, follow these steps:
 1. Clone the repository:
+   ```python
    git clone https://github.com/Aelius23/Audio-still-image-to-terrible-lip-sync.git
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    cd Audio-still-image-to-terrible-lip-sync
-3. Install the required dependencies:
+4. Install the required dependencies:
    pip install -r requirements.txt
 
 ## Usage
