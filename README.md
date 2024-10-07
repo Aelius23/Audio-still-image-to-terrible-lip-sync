@@ -32,7 +32,7 @@ To set up and run the tool on your local machine, follow these steps:
 5. Install the required dependencies:
    ```python
    pip install -r requirements.txt
-Debugging: If you face any errors, you may need to debug the code or adjust your environment. The following common issues may arise due to dependency changes:
+Debugging: If you face any errors, you may need to debug the code or adjust your environment. Good luck asshole </3
 
 ## Usage
 To run the lip sync tool, use the following command:
