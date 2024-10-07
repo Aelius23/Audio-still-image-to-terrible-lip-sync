@@ -42,7 +42,7 @@ Command-line options:
   --audio: Path to the audio file (e.g., .wav).
   --output: Path to the output video file (e.g., .mp4).
 
-  Example:
+Example:
 ```python
     python lipsync.py --image my_image.png --audio my_audio.wav --output synced_output.mp4
 This command will take the still image my_image.png, sync it with the audio my_audio.wav, and save the output video to synced_output.mp4.
