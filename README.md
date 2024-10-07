@@ -24,26 +24,27 @@ The Lip Sync Tool automates the synchronization of still images and audio tracks
 ## Installation
 To set up and run the tool on your local machine, follow these steps:
 1. Clone the repository:
-   ```python
+   ```bash
    git clone https://github.com/Aelius23/Audio-still-image-to-terrible-lip-sync.git
 3. Navigate to the project directory:
-   ```python
+   ```bash
    cd Audio-still-image-to-terrible-lip-sync
 5. Install the required dependencies:
-   ```python
+   ```bash
    pip install -r requirements.txt
 
 ## Usage
 To run the lip sync tool, use the following command:
-```python
+```bash
   python lipsync.py --image path/to/image.png --audio path/to/audio.wav --output path/to/output.mp4
-Command-line options:
+
+## Command-line options:
   --image: Path to the still image file (e.g., .png, .jpg).
   --audio: Path to the audio file (e.g., .wav).
   --output: Path to the output video file (e.g., .mp4).
 
 Example:
-```python
+```bash
     python lipsync.py --image my_image.png --audio my_audio.wav --output synced_output.mp4
 This command will take the still image my_image.png, sync it with the audio my_audio.wav, and save the output video to synced_output.mp4.
 
@@ -75,12 +76,4 @@ Fully reconstruct following Loopy, above.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
-
-### Instructions:
-1. Go back to your README editor in GitHub.
-2. Replace the existing content with this Markdown text.
-3. Scroll down, add a commit message (e.g., "Add detailed README"), and click **Commit changes**.
-
-This should give your project a clean, structured README with all the necessary information for others to use your tool. Let me know if you need any other changes!
-
 
