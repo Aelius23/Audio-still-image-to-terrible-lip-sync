@@ -46,8 +46,9 @@ Command-line options:
 Example:
 ```bash
     python lipsync.py --image my_image.png --audio my_audio.wav --output synced_output.mp4
-This command will take the still image my_image.png, sync it with the audio my_audio.wav, and save the output video to synced_output.mp4.
 ```
+This command will take the still image my_image.png, sync it with the audio my_audio.wav, and save the output video to synced_output.mp4.
+
 ## Configuration
 If the tool has customizable settings, you can modify them in the config.json file. For example, you can adjust phoneme mapping or other parameters to fine-tune the lip sync.
 
